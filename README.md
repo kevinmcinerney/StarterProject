@@ -2,7 +2,7 @@
 
 #1 Go to https://github.com/kevinmcinerney/StarterProject and fork the Project.
 
-#2 GO to 'settings' and rename the forked project.
+#2 Go to 'settings' and rename the forked project.
 
 #3 On your local machines terminal, run: 
 #'git clone https://github.com/example/StarterProject.git'
