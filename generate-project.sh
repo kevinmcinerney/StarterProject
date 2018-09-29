@@ -2,7 +2,7 @@
 
 project_name=${PWD##*/}
 
-echo Updating Anaconda...
+echo Updating Anaconda...GITGIT ST
 conda update -y -n base conda >/dev/null
 
 echo Creating Virtual Environment...
