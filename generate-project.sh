@@ -27,6 +27,10 @@ git clone https://github.com/kevinmcinerney/xutils.git >/dev/null
 echo Installing xutils...
 cd xutils
 pip install . >/dev/null
+cd ..
+chown $USER:$USER xutils
+chmod 777 xutils
+rm -rf xutils
 
 echo Entering virtual environment...
 source activate $project_name >/dev/null
