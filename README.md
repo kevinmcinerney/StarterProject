@@ -1,11 +1,12 @@
-# To start a new project
+#       ================= To start a new project =================
 
-#1 Go to https://github.com/kevinmcinerney/StarterProject and fork the StarterProject
+#1 Go to https://github.com/kevinmcinerney/StarterProject and fork the Project.
 
-#2 Rename the fork to your new project name
+#2 GO to 'settings' and rename the forked project.
 
-#3 On your local machine, git clone <the url of your new project>
+#3 On your local machines terminal, run: 
+#       'git clone https://github.com/example/StarterProject.git'
 
-#4 cd into your project and execute the generate-project.sh script
-
+#4 cd into your project and execute the following in your terminal: 
+#       'source generate-project.sh'
 

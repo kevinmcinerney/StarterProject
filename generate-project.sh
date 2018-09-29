@@ -22,11 +22,11 @@ echo Installing Libraries in Virtual Environment
 conda env update --file environment.yml >/dev/null
 
 echo Cloning xutils...
-git clone https://github.com/kevinmcinerney/xutils.git
+git clone https://github.com/kevinmcinerney/xutils.git >/dev/null
 
 echo Installing xutils...
 cd xutils
 pip install . >/dev/null
 
 echo Entering virtual environment...
-source activate project_name >/dev/null
+source activate $project_name >/dev/null
