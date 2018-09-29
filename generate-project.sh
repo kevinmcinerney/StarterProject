@@ -26,8 +26,7 @@ git clone https://github.com/kevinmcinerney/xutils.git
 
 echo Installing xutils...
 cd xutils
-pip install . >dev/null
+pip install . >/dev/null
 
 echo Entering virtual environment...
-subprocess.run('source activate "project_name', shell=True) >dev/null
-
+source activate project_name >/dev/null
