@@ -1,0 +1,9 @@
+name: py35-v15
+channels:
+- defaults
+dependencies:         # everything under this, installed by conda
+- numpy==1.13.3
+- scipy==1.0.0
+- pip:                # everything under this, installed by pip
+  - Flask==0.12.2
+  - gunicorn==19.7.1
