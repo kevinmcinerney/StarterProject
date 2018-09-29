@@ -2,7 +2,7 @@
 
 project_name=${PWD##*/}
 
-echo Updating Anaconda...GITGIT ST
+echo Updating Anaconda...
 conda update -y -n base conda >/dev/null
 
 echo Creating Virtual Environment...
@@ -22,7 +22,7 @@ echo Installing Libraries in Virtual Environment
 conda env update --file environment.yml >/dev/null
 
 echo Cloning xutils...
-git clone git@github.com:kevinmcinerney/xutils.git
+git clone https://github.com/kevinmcinerney/xutils.git
 
 echo Installing xutils...
 cd xutils
