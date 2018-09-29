@@ -21,5 +21,12 @@ echo "$A" | cat - environment.yml > temp && mv temp environment.yml # replace fi
 echo Installing Libraries in Virtual Environment
 conda env update --file environment.yml >/dev/null
 
+echo cloning xutils
+git clone git@github.com:kevinmcinerney/xutils.git
+
+echo installing xutils
+cd xutils
+pip install .
+
 echo To start, run "source activate "$project_name
 

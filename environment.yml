@@ -1,4 +1,4 @@
-name: py35-v15
+name: StarterProject
 channels:
 - defaults
 dependencies:         # everything under this, installed by conda
